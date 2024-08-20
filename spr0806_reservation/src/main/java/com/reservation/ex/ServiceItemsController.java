@@ -75,5 +75,13 @@ public class ServiceItemsController {
 		return "file/upload_ok";
 
 	}
+	@RequestMapping(value="/file/updateInfo", method = RequestMethod.POST)
+	public String updateInfo(ServiceItemsDto dto,RedirectAttributes rttr) throws Exception {
+		
+		itemService.insertServiceItem(dto);
+		
+		return "redirect:/ex/fileUpload";
+		
+	}
 
 }
