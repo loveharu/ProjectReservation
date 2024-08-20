@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.reservation.dao.UserReservationDao">
+
+<insert id="newOrder">
+insert into user_reservation values ( 
+    #{reservation_number}, #{user_email},
+    #{vendor_email}, #{business_regi_num}, #{reservation_date}, 
+    #{times}, #{service_name}, #{service_price}, #{zipcode}, 
+    #{basic_address}, #{detail_address}, '1')
+</insert>
+<!-- 
+<select id="selectAll" resultType="UserReservationDto">
+select * from vendor
+</select>
+
+<select id="selectEmail" resultType="UserReservationDto">
+select * from vendor where email=#{email}
+</select>
+
+<select id="selectBusiness_regi_num" resultType="UserReservationDto">
+select * from vendor where business_regi_num=#{business_regi_num}
+</select>
+
+<update id="update">
+update vendor set 
+business_regi_num=#{business_regi_num}, business_name=#{business_name}, zipcode=#{zipcode}, basic_address=#{basic_address}, detail_address=#{detail_address}, business_type=#{business_type} where email=#{email}
+</update>
+
+<delete id="delete">
+delete vendor where email=#{email}
+</delete>
+ -->
+</mapper>
