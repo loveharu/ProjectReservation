@@ -1,0 +1,13 @@
+package com.reservation.dto;
+
+import java.sql.Timestamp;
+
+public class PlaceDetail {
+	
+	private int id;
+	private String place_name;
+	private String place_address;
+	private String place_image_url;
+	private Timestamp created_at;
+	private Timestamp updated_at;
+}

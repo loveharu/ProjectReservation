@@ -1,0 +1,14 @@
+package com.reservation.service;
+
+import java.util.ArrayList;
+
+
+
+import com.reservation.dto.MainDto;
+import com.reservation.dto.ServiceItemsDto;
+
+public interface IServiceItemsService {
+	
+	public void insertServiceItem(ServiceItemsDto dto) throws Exception;
+	public ServiceItemsDto selectMyItems(ServiceItemsDto dto) throws Exception;
+}

@@ -1,0 +1,28 @@
+package com.reservation.service;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.reservation.dao.BusinessPlaceInfoDao;
+import com.reservation.dao.ServiceItemsDao;
+import com.reservation.dto.BusinessPlaceInfoDto;
+import com.reservation.dto.ServiceItemsDto;
+
+@Service
+public class BusinessPlaceInfoServiceImpl implements BusinessPlaceInfoService{
+	@Autowired
+	private SqlSession sqlSession;
+
+	@Override
+	public BusinessPlaceInfoDto selectVendorBusinessPlaceInfo(BusinessPlaceInfoDto dto) throws Exception {
+
+
+			BusinessPlaceInfoDao businessDao = sqlSession.getMapper(BusinessPlaceInfoDao.class);
+			return businessDao.selectVendorBusinessPlaceInfo(dto);
+
+		
+	}
+
+	
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.reservation.dao.BusinessPlaceInfoDao">
+
+    
+<select id="selectVendorBusinessPlaceInfo" resultType="BusinessPlaceInfoDto">
+SELECT email, business_regi_num, place_info,
+           img_path0, img_path1, img_path2, img_path3, img_path4, 
+           img_path5, img_path6, img_path7, img_path8, img_path9
+    FROM business_place_info
+    WHERE email = #{email} and business_regi_num = #{business_regi_num}
+</select>
+
+    
+</mapper>

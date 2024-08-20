@@ -1,0 +1,10 @@
+package com.reservation.dao;
+
+import java.util.ArrayList;
+
+import com.reservation.dto.BusnisessPlaceInfoDto;
+import com.reservation.dto.MainDto;
+
+public interface IMapDao {
+	public ArrayList<BusnisessPlaceInfoDto> selectPlace(String query) throws Exception;
+}

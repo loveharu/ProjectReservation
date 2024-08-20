@@ -1,0 +1,8 @@
+package com.reservation.dao;
+
+import com.reservation.dto.BusinessPlaceInfoDto;
+
+public interface BusinessPlaceInfoDao {
+	public BusinessPlaceInfoDto selectVendorBusinessPlaceInfo(BusinessPlaceInfoDto dto) throws Exception;
+	
+}

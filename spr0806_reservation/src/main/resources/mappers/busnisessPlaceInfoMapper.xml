@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 만든이: 김하겸 -->
+<!-- item_id mapper는 사업자(vender)가 등록한 업체에 대한 처리입니다 -->
+<mapper namespace="com.reservation.dao.BusnisessPlaceInfoDao">
+	<insert id="insertMyBusinessPlaceInfo"
+		parameterType="com.reservation.dto.BusnisessPlaceInfoDto">
+		INSERT INTO business_place_info (
+		email, business_regi_num, place_info,
+		img_path0, img_path1, img_path2, img_path3, img_path4,
+		img_path5, img_path6, img_path7, img_path8, img_path9
+		) VALUES (
+		#{email}, #{business_regi_num}, #{place_info},
+		#{img_path0}, #{img_path1}, #{img_path2}, #{img_path3}, #{img_path4},
+		#{img_path5}, #{img_path6}, #{img_path7}, #{img_path8}, #{img_path9}
+		);
+	</insert>
+
+</mapper>

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Aug 20 12:15:58 KST 2024
+org.eclipse.jst.jee.server\:spr0806_reservation=C\:\\apache-tomcat-9.0.90\\apache-tomcat-9.0.90\\wtpwebapps\\spr0806_reservation
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\tj-bu-702-06\\.m2\\repository\\org\\springframework\\spring-web\\4.3.5.RELEASE\\spring-web-4.3.5.RELEASE.jar=C\:\\apache-tomcat-9.0.90\\apache-tomcat-9.0.90\\wtpwebapps\\spr0806_reservation\\WEB-INF\\lib\\spring-web-4.3.5.RELEASE.jar

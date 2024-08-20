@@ -1,0 +1,101 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>지도 서비스</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=YOUR_APP_KEY&libraries=services,clusterer,drawing"></script>
+<style>
+    #map {
+        width: 100%;
+        height: 400px;
+    }
+</style>
+<script>
+    $(document).ready(function() {
+        // 지도 초기화 함수
+        function initMap() {
+            var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+                mapOption = {
+                    center: new kakao.maps.LatLng(37.5665, 126.9780), // 서울시청 위치
+                    level: 3 // 지도의 확대 레벨
+                };
+
+            var map = new kakao.maps.Map(mapContainer, mapOption); // 지도 생성
+
+            // 길찾기 버튼 클릭 이벤트
+            $('#search-route').click(function() {
+                var start = $('#start').val();
+                var end = $('#end').val();
+                if (start && end) {
+                    searchRoute(start, end, map);
+                } else {
+                    alert('출발지와 도착지를 입력하세요.');
+                }
+            });
+        }
+
+        // 길찾기 함수
+        function searchRoute(start, end, map) {
+            var ps = new kakao.maps.services.Places(); // 장소 검색 객체 생성
+            ps.keywordSearch(start, function(results, status) {
+                if (status === kakao.maps.services.Status.OK) {
+                    var startLocation = results[0];
+                    ps.keywordSearch(end, function(results, status) {
+                        if (status === kakao.maps.services.Status.OK) {
+                            var endLocation = results[0];
+                            displayRoute(startLocation, endLocation, map);
+                        }
+                    });
+                }
+            });
+        }
+
+        // 경로 표시 함수
+        function displayRoute(startLocation, endLocation, map) {
+            var directions = new kakao.maps.services.Directions();
+            directions.route({
+                origin: new kakao.maps.LatLng(startLocation.y, startLocation.x),
+                destination: new kakao.maps.LatLng(endLocation.y, endLocation.x),
+                travelMode: kakao.maps.services.TravelMode.DRIVING
+            }, function(result, status) {
+                if (status === kakao.maps.services.Status.OK) {
+                    var route = result.routes[0];
+                    var path = route.path;
+                    var polyline = new kakao.maps.Polyline({
+                        path: path,
+                        strokeColor: '#FF0000',
+                        strokeOpacity: 0.7,
+                        strokeWeight: 5
+                    });
+                    polyline.setMap(map);
+
+                    var bounds = new kakao.maps.LatLngBounds();
+                    for (var i = 0; i < path.length; i++) {
+                        bounds.extend(path[i]);
+                    }
+                    map.setBounds(bounds);
+                }
+            });
+        }
+
+        // 페이지 로드 시 지도 초기화
+        initMap();
+    });
+</script>
+</head>
+<body>
+    <header>
+        <h1>카카오맵 지도 서비스</h1>
+    </header>
+    <div id="map"></div>
+    <div>
+        <input type="text" id="start" placeholder="출발지">
+        <input type="text" id="end" placeholder="도착지">
+        <button id="search-route">길찾기</button>
+    </div>
+</body>
+</html>

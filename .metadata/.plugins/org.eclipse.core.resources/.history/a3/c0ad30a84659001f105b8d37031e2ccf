@@ -1,0 +1,21 @@
+package com.reservation.service;
+
+import java.util.ArrayList;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.reservation.dao.IMainDao;
+import com.reservation.dto.MainDto;
+
+@Service
+public class ServiceItemsimpl implements IMainService {
+
+	@Autowired
+	private SqlSession sqlSession;
+
+	
+	
+	
+}

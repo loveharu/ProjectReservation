@@ -1,0 +1,15 @@
+package com.reservation.dao;
+
+import java.util.ArrayList;
+
+import com.reservation.dto.VendorReservationDto;
+
+public interface ServiceItemsDao2 {
+
+	public void insert(ServiceItemsDao2 dto) throws Exception;
+
+	
+	
+	
+	
+}

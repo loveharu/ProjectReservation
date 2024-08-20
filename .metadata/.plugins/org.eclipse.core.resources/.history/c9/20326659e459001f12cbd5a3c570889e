@@ -1,0 +1,10 @@
+package com.reservation.service;
+
+import com.reservation.dto.BusinessPlaceInfoDto;
+
+public interface BusinessPlaceInfoService {
+	
+	public BusinessPlaceInfoDto selectVendorBusinessPlaceInfo(BusinessPlaceInfoDto dto) throws Exception;
+	
+	
+}
