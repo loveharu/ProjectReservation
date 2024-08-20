@@ -54,7 +54,7 @@
 			</div>
 
 			<div class="form-group">
-				<label for="file">로고 또는 이미지 업로드:</label> <input type="file"
+				<label for="file">로고 또는 파일 업로드:</label> <input type="file"
 					name="file" id="file">
 				<p class="note">업로드할 파일은 최대 5MB 크기 제한이 있습니다.</p>
 			</div>

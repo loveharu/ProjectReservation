@@ -11,6 +11,10 @@
 <link rel="stylesheet" href="/ex/resources/css/mainStyle.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
+$(document).ready(function () {
+    // 이전에 작성한 jQuery 코드
+
+  
 	$(document).ready(function() {
 		// 메뉴 토글 기능
 		function toggleMenu() {
@@ -72,6 +76,7 @@
 		// 페이지 로드 시 공지사항과 사용자 정보 로드
 		loadNotices();
 		loadUserInfo();
+		
 	});
 </script>
 </head>
@@ -124,8 +129,7 @@
 		</nav>
 		<section>
 			<h2>지도 서비스</h2>
-			<button onclick="location.href='/ex/map/mapService'">지도 서비스로
-				이동</button>
+			<button onclick="location.href='/ex/map/mapService'">지도 서비스로 이동</button>
 			<!-- 지도 서비스 페이지로 이동하는 버튼 -->
 		</section>
 		<section>
