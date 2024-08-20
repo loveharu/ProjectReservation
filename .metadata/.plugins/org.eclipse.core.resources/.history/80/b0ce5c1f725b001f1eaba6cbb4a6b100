@@ -1,9 +1,0 @@
-package com.reservation.service;
-
-import java.util.ArrayList;
-
-import com.reservation.dto.AuthoritiesDto;
-
-public interface MapService {
-
-}
