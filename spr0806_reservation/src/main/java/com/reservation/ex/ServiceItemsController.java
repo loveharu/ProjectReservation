@@ -2,6 +2,7 @@ package com.reservation.ex;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Date;
 import java.util.UUID;
 
 import org.slf4j.Logger;
@@ -17,9 +18,11 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.reservation.dto.AuthoritiesDto;
+import com.reservation.dto.ImageDto;
 import com.reservation.dto.ServiceItemsDto;
 import com.reservation.service.AuthoritiesService;
 import com.reservation.service.IServiceItemsService;
+//파일 업로드 관련 처리역할 
 
 @Controller
 public class ServiceItemsController {
@@ -35,45 +38,65 @@ public class ServiceItemsController {
 
 	}
 
-
 	@RequestMapping(value = "/file/updateDB", method = RequestMethod.POST)
 	public String updateDB(ServiceItemsDto dto) {
 
-		
 		return "file/upload_ok";
 
 	}
-	
-	@RequestMapping(value = "/file/UploadDB", method = RequestMethod.POST)
-	public String fileUpload(@RequestParam("file") MultipartFile file) {
+
+//1. pom.xml에 해당 코드 추가
+//	<dependency>
+//		<groupId>commons-fileupload</groupId>
+//		<artifactId>commons-fileupload</artifactId>
+//		<version>1.3.3</version>
+//    </dependency>
+//    <dependency>
+//    	<groupId>commons-io</groupId>
+//    	<artifactId>commons-io</artifactId>
+//    	<version>2.6</version>
+//    </dependency>
+//2. root-context.xml에  해당 빈객체 추가
+//	<bean id="multipartResolver"
+//			class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+//			<!-- 최대 업로드 크기 (10MB) -->
+//			<property name="maxUploadSize" value="10485760" /> <!-- 10 * 1024 * 1024 -->
+//			<!-- 최대 메모리 크기 (1MB) -->
+//			<property name="maxInMemorySize" value="1048576" /> <!-- 1 * 1024 * 1024 -->
+//	</bean>
+	@RequestMapping(value = "/file/updateItemInfo", method = RequestMethod.POST)
+	public String fileUpload(@RequestParam("file") MultipartFile file, @ModelAttribute ServiceItemsDto dto)
+			throws Exception {
 		String fileRealName = file.getOriginalFilename();
 		long size = file.getSize();
-
-		System.out.println("파일 이름" + fileRealName);
-		System.out.println("용량 크기(byte): " + size);
-
-		String fileExtension = fileRealName.substring(fileRealName.lastIndexOf("."), fileRealName.length());
+		String fileExtension = fileRealName.substring(fileRealName.lastIndexOf("."));
+		// 향후 프로젝트 이미지 파일에 맞는 파일경로로 수정해야됨
 		String uploadFolder = "C:\\groot\\upload";
 		UUID uuid = UUID.randomUUID();
-		System.out.println(uuid.toString());
-		String[] uuids = uuid.toString().split("-");
+		String uniqueName = uuid.toString().split("-")[0];
+		String newFileName = uniqueName + fileExtension;
+		File saveFile = new File(uploadFolder + "\\" + newFileName);
 
-		String uniqueName = uuids[0];
-		System.out.println("생성된 고유문자열 : " + uniqueName);
-		System.out.println("확장자명 :" + fileExtension);
-
-		// File saveFile = new File(uploadFolder+"\\"+fileRealName); uuid 적용 전
-
-		File saveFile = new File(uploadFolder + "\\" + uniqueName + fileExtension); // 적용 후
 		try {
-			file.transferTo(saveFile); // 실제 파일 저장메서드(filewriter 작업을 손쉽게 한방에 처리해준다.)
-		} catch (IllegalStateException e) {
-			e.printStackTrace();
+			file.transferTo(saveFile);
+
+			// DTO 객체 생성 및 데이터 설정
+			ImageDto imgDto = new ImageDto();
+			imgDto.setFileName(fileRealName);
+			imgDto.setFileType(fileExtension);
+			imgDto.setFilePath(uploadFolder + "\\" + newFileName);
+			imgDto.setFileSize((int) size);
+			imgDto.setUpload_time(new Date());
+			imgDto.setImage_data(file.getBytes());
+
+			// MyBatis를 통해 데이터베이스에 저장
+			itemService.insertItemImg(imgDto);
+			itemService.insertServiceItem(dto);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return "file/upload_ok";
 
+		return "file/upload_ok";
 	}
 
 }

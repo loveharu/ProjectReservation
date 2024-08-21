@@ -23,6 +23,7 @@ public class BusnisessPlaceInfoDto {
 	private String email;
 	private String business_regi_num;
 	private String place_info;
+	
 	private String img_path0;
 	private String img_path1;
 	private String img_path2;

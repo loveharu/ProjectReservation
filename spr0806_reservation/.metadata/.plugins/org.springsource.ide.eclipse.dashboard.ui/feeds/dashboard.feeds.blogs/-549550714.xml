@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 21 Aug 2024 00:29:09 GMT</lastBuildDate><item><title><![CDATA[Spring for Apache Pulsar 1.2.0-M1 is now available]]></title><link>https://spring.io/blog/2024/08/20/spring-for-apache-pulsar-1-2-0-m1-is-now-available</link><guid isPermaLink="true">https://spring.io/blog/2024/08/20/spring-for-apache-pulsar-1-2-0-m1-is-now-available</guid><dc:creator><![CDATA[Chris Bono]]></dc:creator><pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I’m happy to announce that Spring for Apache Pulsar &lt;code&gt;1.2.0-M1&lt;/code&gt; has been released and is now available from &lt;a href=&quot;https://repo.spring.io/milestone&quot;&gt;https://repo.spring.io/milestone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The release will be included in the upcoming Spring Boot &lt;a href=&quot;https://github.com/spring-projects/spring-boot/milestones/3.4.0-M2&quot;&gt;3.4.0-M2&lt;/a&gt; release.&lt;/p&gt;
+&lt;p&gt;This release includes numerous enhancements, documentation improvements, bug fixes, and dependency upgrades.&lt;/p&gt;
+&lt;p&gt;Notable new features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Custom Object Mapper&lt;/strong&gt; - you can provide your own Jackson ObjectMapper that Pulsar will use when producing and consuming JSON messages (&lt;a href=&quot;https://docs.spring.io/spring-pulsar/docs/1.2.0-M1/reference/reference/custom-object-mapper.html&quot;&gt;more details&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Default Tenant and Namespace&lt;/strong&gt; - you can specify a default tenant and/or namespace to use when producing or consuming messages against a non-fully-qualified topic URL (&lt;a href=&quot;https://docs.spring.io/spring-pulsar/docs/1.2.0-M1/reference/reference/default-tenant-namespace.html&quot;&gt;more details&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Updates to next minor version of Spring, Reactor, and Micrometer libraries&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/spring-projects/spring-pulsar/releases/tag/v1.2.0-M1&quot;&gt;release notes&lt;/a&gt; for more details.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring for Apache Pulsar 1.0.9 and 1.1.3 are now available]]></title><link>https://spring.io/blog/2024/08/20/spring-for-apache-pulsar-1-0-9-and-1-1-3-are-now-available</link><guid isPermaLink="true">https://spring.io/blog/2024/08/20/spring-for-apache-pulsar-1-0-9-and-1-1-3-are-now-available</guid><dc:creator><![CDATA[Chris Bono]]></dc:creator><pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I’m happy to announce that Spring for Apache Pulsar &lt;code&gt;1.0.9&lt;/code&gt; and &lt;code&gt;1.1.3&lt;/code&gt; have been released and are now available from Maven Central.&lt;/p&gt;
+&lt;p&gt;The releases will be included in the upcoming Spring Boot &lt;a href=&quot;https://github.com/spring-projects/spring-boot/milestones/3.2.9&quot;&gt;3.2.9&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-boot/milestones/3.3.3&quot;&gt;3.3.3&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These patch releases includes numerous dependency upgrades.&lt;/p&gt;
+&lt;p&gt;Please see the release notes (&lt;a href=&quot;https://github.com/spring-projects/spring-pulsar/releases/tag/v1.0.9&quot;&gt;1.0.9&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-pulsar/releases/tag/v1.1.3&quot;&gt;1.1.3&lt;/a&gt;) for more details.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Security 5.8.14, 6.2.6, and 6.3.2 are available now]]></title><link>https://spring.io/blog/2024/08/20/spring-security-5-8-14-6-2-6-and-6-3-2-are-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/08/20/spring-security-5-8-14-6-2-6-and-6-3-2-are-available-now</guid><dc:creator><![CDATA[Marcus Hert Da Coregio]]></dc:creator><pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security 6.3.2, 6.2.6, and 5.8.14 are available now. In all cases, the releases are mostly composed of bug fixes, dependency upgrades, and documentation improvements.&lt;/p&gt;
+&lt;p&gt;To learn more, please visit the &lt;a href=&quot;https://github.com/spring-projects/spring-security/releases/tag/6.3.2&quot;&gt;6.3.2&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-security/releases/tag/6.2.6&quot;&gt;6.2.6&lt;/a&gt;, and &lt;a href=&quot;https://github.com/spring-projects/spring-security/releases/tag/5.8.14&quot;&gt;5.8.14&lt;/a&gt; release summaries.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://projects.spring.io/spring-security/&quot;&gt;Project Site&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-security/reference/&quot;&gt;Reference&lt;/a&gt; | &lt;a href=&quot;http://stackoverflow.com/questions/tagged/spring-security&quot;&gt;Help&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Authorization Server 1.4.0-M1, 1.3.2 and 1.2.6 available now]]></title><link>https://spring.io/blog/2024/08/20/spring-authorization-server-1-4-0-m1-1-3-2-and-1-2-6-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/08/20/spring-authorization-server-1-4-0-m1-1-3-2-and-1-2-6-available-now</guid><dc:creator><![CDATA[Joe Grandja]]></dc:creator><pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, it is my pleasure to announce the releases of Spring Authorization Server 1.4.0-M1, 1.3.2 and 1.2.6.&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&quot;https://github.com/spring-projects/spring-authorization-server/releases/tag/1.4.0-M1&quot;&gt;1.4.0-M1&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-authorization-server/releases/tag/1.3.2&quot;&gt;1.3.2&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-authorization-server/releases/tag/1.2.6&quot;&gt;1.2.6&lt;/a&gt; release notes for complete details.&lt;/p&gt;
+&lt;p&gt;To get started using Spring Authorization Server, see the &lt;a href=&quot;https://docs.spring.io/spring-authorization-server/reference/getting-started.html&quot;&gt;Getting Started&lt;/a&gt; chapter of the reference documentation and the &lt;a href=&quot;https://github.com/spring-projects/spring-authorization-server/tree/main/samples&quot;&gt;samples&lt;/a&gt; to become familiar with setup and configuration.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-authorization-server&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-authorization-server/issues&quot;&gt;GitHub Issues&lt;/a&gt; | &lt;a href=&quot;https://github.com/orgs/spring-projects/projects/8/views/21&quot;&gt;Project Board&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring for Apache Kafka 3.3.0-M2, 3.2.3 and 3.1.8 Available Now]]></title><link>https://spring.io/blog/2024/08/20/spring-for-apache-kafka-3-3-0-m2-3-2-3-and-3-1-8-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/08/20/spring-for-apache-kafka-3-3-0-m2-3-2-3-and-3-1-8-available-now</guid><dc:creator><![CDATA[Soby Chacko]]></dc:creator><pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of everyone who contributed, we are pleased to announce that Spring for Apache Kafka &lt;code&gt;3.3.0-M2&lt;/code&gt;, &lt;code&gt;3.2.3&lt;/code&gt; and &lt;code&gt;3.1.8&lt;/code&gt; are generally available now.&lt;/p&gt;
+&lt;p&gt;See the release notes for more details:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-kafka/releases/tag/v3.3.0-M2&quot;&gt;https://github.com/spring-projects/spring-kafka/releases/tag/v3.3.0-M2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-kafka/releases/tag/v3.2.3&quot;&gt;https://github.com/spring-projects/spring-kafka/releases/tag/v3.2.3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-kafka/releases/tag/v3.1.8&quot;&gt;https://github.com/spring-projects/spring-kafka/releases/tag/v3.1.8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;These releases will be included in the upcoming Spring Boot &lt;code&gt;3.2.9&lt;/code&gt;, &lt;code&gt;3.3.3&lt;/code&gt; and &lt;code&gt;3.4.0-M2&lt;/code&gt; respectively.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;3.4.0-M2&lt;/code&gt; version of Spring for Apache Kafka updated the Kafka client to the recently released version &lt;code&gt;3.8.0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We want to thank everyone who contributed to these releases.&lt;/p&gt;
+&lt;h4 id=&quot;staying-in-touch-with-the-project&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#staying-in-touch-with-the-project&quot; aria-label=&quot;staying in touch with the project permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Staying in touch with the project&lt;/h4&gt;
+&lt;p&gt;Following are the usual avenues where you can engage with the project.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-kafka&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-kafka/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-kafka/reference&quot;&gt;Documentation&lt;/a&gt; | &lt;a href=&quot;https://stackoverflow.com/tags/spring-kafka&quot;&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Cloud 2024.0.0-M1 (aka Mooregate) Has Been Released]]></title><link>https://spring.io/blog/2024/08/20/spring-cloud-2024-0-0-m1-aka-mooregate-has-been-released</link><guid isPermaLink="true">https://spring.io/blog/2024/08/20/spring-cloud-2024-0-0-m1-aka-mooregate-has-been-released</guid><dc:creator><![CDATA[Ryan Baxter]]></dc:creator><pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the community, I am pleased to announce that the Milestone 1 (M1) of the &lt;a href=&quot;https://cloud.spring.io&quot;&gt;Spring Cloud 2024.0.0&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href=&quot;https://repo.spring.io/milestone/&quot;&gt;Spring Milestone&lt;/a&gt; repository.&lt;/p&gt;
+&lt;h2 id=&quot;notable-changes-in-the-202400-release-train&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#notable-changes-in-the-202400-release-train&quot; aria-label=&quot;notable changes in the 202400 release train permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Notable Changes in the 2024.0.0 Release Train&lt;/h2&gt;
+&lt;p&gt;The primary goal of the first milestone of Spring Cloud 2024.0.0 is to provide compatibility with Spring Boot 3.4.0-M1.  There are no notable new features in this first milestone.  We would appreciate users trying our this first milestone and reporting any issues they may notice.&lt;/p&gt;
+&lt;p&gt;The following modules were updated as part of 2024.0.0-M1:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Module&lt;/th&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;th&gt;Issues&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Bus&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-bus/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Zookeeper&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-zookeeper/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Circuitbreaker&lt;/td&gt;
+&lt;td&gt;3.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-circuitbreaker/releases/tag/v3.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Task&lt;/td&gt;
+&lt;td&gt;3.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-task/releases/tag/v3.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Contract&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-contract/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Kubernetes&lt;/td&gt;
+&lt;td&gt;3.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/releases/tag/v3.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Netflix&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-netflix/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Starter Build&lt;/td&gt;
+&lt;td&gt;2024.0.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-starter-build/releases/tag/v2024.0.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Config&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Build&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-build/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Openfeign&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Consul&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-consul/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Gateway&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Commons&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Stream&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-stream/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Function&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-function/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Vault&lt;/td&gt;
+&lt;td&gt;4.2.0-M1&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-vault/releases/tag/v4.2.0-M1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As always, we welcome feedback on &lt;a href=&quot;https://github.com/spring-cloud/&quot;&gt;GitHub&lt;/a&gt;, on &lt;a href=&quot;https://gitter.im/spring-cloud/spring-cloud&quot;&gt;Gitter&lt;/a&gt;, on &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-cloud&quot;&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href=&quot;https://twitter.com/SpringCloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To get started with Maven with a BOM (dependency management only):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+    &amp;#x3C;repositories&gt;
+        &amp;#x3C;repository&gt;
+            &amp;#x3C;id&gt;spring-milestones&amp;#x3C;/id&gt;
+            &amp;#x3C;name&gt;Spring Milestones&amp;#x3C;/name&gt;
+            &amp;#x3C;url&gt;https://repo.spring.io/milestone&amp;#x3C;/url&gt;
+            &amp;#x3C;snapshots&gt;
+                &amp;#x3C;enabled&gt;false&amp;#x3C;/enabled&gt;
+            &amp;#x3C;/snapshots&gt;
+        &amp;#x3C;/repository&gt;
+    &amp;#x3C;/repositories&gt;
+&amp;#x3C;dependencyManagement&gt;
+    &amp;#x3C;dependencies&gt;
+        &amp;#x3C;dependency&gt;
+            &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+            &amp;#x3C;artifactId&gt;spring-cloud-dependencies&amp;#x3C;/artifactId&gt;
+            &amp;#x3C;version&gt;2024.0.0-M1&amp;#x3C;/version&gt;
+            &amp;#x3C;type&gt;pom&amp;#x3C;/type&gt;
+            &amp;#x3C;scope&gt;import&amp;#x3C;/scope&gt;
+        &amp;#x3C;/dependency&gt;
+    &amp;#x3C;/dependencies&gt;
+&amp;#x3C;/dependencyManagement&gt;
+&amp;#x3C;dependencies&gt;
+    &amp;#x3C;dependency&gt;
+        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+        &amp;#x3C;artifactId&gt;spring-cloud-starter-config&amp;#x3C;/artifactId&gt;
+    &amp;#x3C;/dependency&gt;
+    &amp;#x3C;dependency&gt;
+        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+        &amp;#x3C;artifactId&gt;spring-cloud-starter-netflix-eureka-client&amp;#x3C;/artifactId&gt;
+    &amp;#x3C;/dependency&gt;
+    ...
+&amp;#x3C;/dependencies&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or with Gradle:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;buildscript {
+dependencies {
+classpath &quot;io.spring.gradle:dependency-management-plugin:1.0.2.RELEASE&quot;
+}
+}
+
+repositories {
+maven {
+url &apos;https://repo.spring.io/milestone&apos;
+}
+}
+
+apply plugin: &quot;io.spring.dependency-management&quot;
+
+dependencyManagement {
+imports {
+mavenBom &apos;org.springframework.cloud:spring-cloud-dependencies:2024.0.0-M1&apos;
+}
+}
+
+dependencies {
+compile &apos;org.springframework.cloud:spring-cloud-starter-config&apos;
+compile &apos;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&apos;
+...
+}
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Spring AI with NVIDIA LLM API]]></title><link>https://spring.io/blog/2024/08/20/spring-ai-with-nvidia-llm-api</link><guid isPermaLink="true">https://spring.io/blog/2024/08/20/spring-ai-with-nvidia-llm-api</guid><dc:creator><![CDATA[Christian Tzolov]]></dc:creator><pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Spring AI now supports &lt;a href=&quot;https://docs.api.nvidia.com/nim/reference/llm-apis&quot;&gt;NVIDIA&apos;s Large Language Model API&lt;/a&gt;, offering integration with a wide range of &lt;a href=&quot;https://docs.api.nvidia.com/nim/reference/llm-apis#models&quot;&gt;models&lt;/a&gt;. By leveraging NVIDIA&apos;s OpenAI-compatible API, Spring AI allows developers to use NVIDIA&apos;s LLMs through the familiar &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/nvidia-chat.html&quot;&gt;Spring AI API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//images.ctfassets.net/mnrwi97vnhts/5KzDfZ77QWPAIaxjhyGlZT/7fdead3e78ec8daf44c9bd632f17dc7d/SpringAI-NVIDIA-API-5.jpg&quot; alt=&quot;SpringAI-NVIDIA-API-5&quot;&gt;&lt;/p&gt;
+&lt;p&gt;We&apos;ll explore how to configure and use the Spring AI OpenAI chat client to connect with NVIDIA LLM API.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The demo application code is available in the &lt;a href=&quot;https://github.com/tzolov/nvidia-llm&quot;&gt;nvidia-llm&lt;/a&gt; GitHub repository.&lt;/li&gt;
+&lt;li&gt;The SpringAI / NVIDIA integration &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/nvidia-chat.html&quot;&gt;documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;prerequisite&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#prerequisite&quot; aria-label=&quot;prerequisite permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Prerequisite&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Create &lt;a href=&quot;https://build.nvidia.com/explore/discover&quot;&gt;NVIDIA&lt;/a&gt; account with sufficient credits.&lt;/li&gt;
+&lt;li&gt;Select your preferred &lt;a href=&quot;https://docs.api.nvidia.com/nim/reference/llm-apis#models&quot;&gt;LLM model&lt;/a&gt; from NVIDIA&apos;s offerings. Like the &lt;code&gt;meta/llama-3.1-70b-instruct&lt;/code&gt; in the screenshot below.&lt;/li&gt;
+&lt;li&gt;From the model&apos;s page, obtain the API key for your chosen model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;//images.ctfassets.net/mnrwi97vnhts/4sYXiLVdIu2zNwCM73PGuK/cb1c9481199b129bb94126f023439167/NVIDIA-API-KEYS.jpg&quot; alt=&quot;NVIDIA-API-KEYS&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;dependencies&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dependencies&quot; aria-label=&quot;dependencies permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dependencies&lt;/h1&gt;
+&lt;p&gt;To get started, add the Spring AI OpenAI starter to your project.
+For Maven, add this to your pom.xml:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;#x3C;dependency&gt;
+  &amp;#x3C;groupId&gt;org.springframework.ai&amp;#x3C;/groupId&gt;
+  &amp;#x3C;artifactId&gt;spring-ai-openai-spring-boot-starter&amp;#x3C;/artifactId&gt;
+&amp;#x3C;/dependency&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For Gradle, add this to your build.gradle:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;gradleCopydependencies {
+  implementation &apos;org.springframework.ai:spring-ai-openai-spring-boot-starter&apos;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ensure you&apos;ve added the Spring Milestone and Snapshot repositories and add the &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/getting-started.html#dependency-management&quot;&gt;Spring AI BOM&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;configuring-spring-ai&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#configuring-spring-ai&quot; aria-label=&quot;configuring spring ai permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuring Spring AI&lt;/h1&gt;
+&lt;p&gt;To use NVIDIA LLM API with Spring AI, we need to configure the OpenAI client to point to the NVIDIA LLM API endpoint and use NVIDIA-specific models.&lt;/p&gt;
+&lt;p&gt;Add the following environment variables to your project:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;export SPRING_AI_OPENAI_API_KEY=&amp;#x3C;NVIDIA_API_KEY&gt;
+export SPRING_AI_OPENAI_BASE_URL=https://integrate.api.nvidia.com
+export SPRING_AI_OPENAI_CHAT_OPTIONS_MODEL=meta/llama-3.1-70b-instruct
+export SPRING_AI_OPENAI_EMBEDDING_ENABLED=false
+export SPRING_AI_OPENAI_CHAT_OPTIONS_MAX_TOKENS=2048
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Alternatively, you can add these to your application.properties file:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;spring.ai.openai.api-key=&amp;#x3C;NVIDIA_API_KEY&gt;
+spring.ai.openai.base-url=https://integrate.api.nvidia.com
+spring.ai.openai.chat.options.model=meta/llama-3.1-70b-instruct
+
+# The NVIDIA LLM API doesn&apos;t support embeddings.
+spring.ai.openai.embedding.enabled=false
+# The NVIDIA LLM API requires this parameter to be set explicitly or error will be thrown.
+spring.ai.openai.chat.options.max-tokens=2048
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Key points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;api-key&lt;/code&gt; is set to your NVIDIA API key.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;base-url&lt;/code&gt; is set to NVIDIA&apos;s LLM API endpoint: &lt;a href=&quot;https://integrate.api.nvidia.com&quot;&gt;https://integrate.api.nvidia.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;model&lt;/code&gt; is set to one of the models available on NVIDIA&apos;s LLM API.&lt;/li&gt;
+&lt;li&gt;The NVIDIA LLM API reuquires the &lt;code&gt;max-tokens&lt;/code&gt; to be explicitly set or a server error will be thrown.&lt;/li&gt;
+&lt;li&gt;Since the NVIDIA LLM API is LLM only we can disable the embedding endpong: &lt;code&gt;embedding.enabled=false&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check the reference documentation for the complete list of &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/nvidia-chat.html#_chat_properties&quot;&gt;configuration properties&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;code-example&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-example&quot; aria-label=&quot;code example permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Code Example&lt;/h1&gt;
+&lt;p&gt;Now that we&apos;ve configured Spring AI to use NVIDIA LLM API, let&apos;s look at a simple example of how to use it in your application.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;@RestController
+public class ChatController {
+
+    private final ChatClient chatClient;
+
+	@Autowired
+    public ChatController(ChatClient.Builder builder) {
+	    this.chatClient = builder.build();
+	}
+
+    @GetMapping(&quot;/ai/generate&quot;)
+  public String generate(@RequestParam(value = &quot;message&quot;, defaultValue =  &quot;Tell me a joke&quot;) String message) {
+  	return  chatClient.prompt().user(message).call().content();
+	}
+
+    @GetMapping(&quot;/ai/generateStream&quot;)
+	public Flux&amp;#x3C;String&gt; generateStream(
+		@RequestParam(value = &quot;message&quot;, defaultValue = &quot;Tell me a joke&quot;) String message) {
+    	return chatClient.prompt().user(message).stream().content();
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In the &lt;a href=&quot;https://github.com/tzolov/nvidia-llm/blob/main/src/main/java/com/example/nvidia/ChatController.java&quot;&gt;ChatController.java&lt;/a&gt; example, we&apos;ve created a simple REST controller with two endpoints:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/ai/generate&lt;/code&gt;: Generates a single response to a given prompt.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/ai/generateStream&lt;/code&gt;: Streams the response, which can be useful for longer outputs or real-time interactions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;toolfunction-calling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#toolfunction-calling&quot; aria-label=&quot;toolfunction calling permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tool/Function Calling&lt;/h1&gt;
+&lt;p&gt;NVIDIA LLM API endpoints support tool/function calling when selecting one of the Tool/Function supporting models.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//images.ctfassets.net/mnrwi97vnhts/RDyxFDItEIkBRqWsTrev7/708480064705cda9f11371d87a5acb68/SpringAI-NVIDIA-FuncitonCalling.jpg&quot; alt=&quot;SpringAI-NVIDIA-FuncitonCalling&quot;&gt;&lt;/p&gt;
+&lt;p&gt;You can register custom Java functions with your ChatModel and have the provided LLM model intelligently choose to output a JSON object containing arguments to call one or many of the registered functions.
+This is a powerful technique to connect the LLM capabilities with external tools and APIs.&lt;/p&gt;
+&lt;p&gt;Find more about SpringAI/OpenAI &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/functions/openai-chat-functions.html&quot;&gt;Function Calling&lt;/a&gt; support.&lt;/p&gt;
+&lt;h3 id=&quot;tool-example&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tool-example&quot; aria-label=&quot;tool example permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tool Example&lt;/h3&gt;
+&lt;p&gt;Here&apos;s a simple example of how to use too/function calling with Spring AI:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;@SpringBootApplication
+public class NvidiaLlmApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NvidiaLlmApplication.class, args);
+	}
+
+	@Bean
+	CommandLineRunner runner(ChatClient.Builder chatClientBuilder) {
+		return args -&gt; {
+			var chatClient = chatClientBuilder.build();
+
+			var response = chatClient.prompt()
+				.user(&quot;What is the weather in Amsterdam and Paris?&quot;)
+				.functions(&quot;weatherFunction&quot;) // reference by bean name.
+				.call()
+				.content();
+
+			System.out.println(response);
+		};
+	}
+
+	@Bean
+	@Description(&quot;Get the weather in location&quot;)
+	public Function&amp;#x3C;WeatherRequest, WeatherResponse&gt; weatherFunction() {
+		return new MockWeatherService();
+	}
+
+	public static class MockWeatherService implements Function&amp;#x3C;WeatherRequest, WeatherResponse&gt; {
+
+		public record WeatherRequest(String location, String unit) {}
+		public record WeatherResponse(double temp, String unit) {}
+
+		@Override
+		public WeatherResponse apply(WeatherRequest request) {
+			double temperature = request.location().contains(&quot;Amsterdam&quot;) ? 20 : 25;
+			return new WeatherResponse(temperature, request.unit);
+		}
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In the &lt;a href=&quot;https://github.com/tzolov/nvidia-llm/blob/main/src/main/java/com/example/nvidia/NvidiaLlmApplication.java&quot;&gt;NvidiaLlmApplication.java&lt;/a&gt;  example, when the model needs weather information, it will automatically call the &lt;code&gt;weatherFunction&lt;/code&gt; bean, which can then fetch real-time weather data.
+The expected response looks like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The weather in Amsterdam is currently 20 degrees Celsius, and the weather in Paris is currently 25 degrees Celsius.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;key-considerations&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#key-considerations&quot; aria-label=&quot;key considerations permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Key Considerations&lt;/h1&gt;
+&lt;p&gt;When using NVIDIA LLM API with Spring AI, keep the following points in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Model Selection&lt;/strong&gt;: NVIDIA offers a wide range of models from various providers. Choose the appropriate model for your use case.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API Compatibility&lt;/strong&gt;: The NVIDIA LLM API is designed to be compatible with the OpenAI API, which allows for easy integration with Spring AI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance&lt;/strong&gt;: NVIDIA&apos;s LLM API is optimized for high-performance inference. You may notice improved response speeds, especially for larger models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Specialized Models&lt;/strong&gt;: NVIDIA offers models specialized for different tasks, such as code completion, math problems, and general chat. Select the most appropriate model for your specific needs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API Limits&lt;/strong&gt;: Be aware of any rate limits or usage quotas associated with your NVIDIA API key.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;references&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#references&quot; aria-label=&quot;references permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;References&lt;/h1&gt;
+&lt;p&gt;For further information check the Spring AI and OpenAI reference documentations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/nvidia-chat.html&quot;&gt;Spring AI NVIDIA Reference docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.api.nvidia.com/nim/reference/llm-apis#overview&quot;&gt;NVIDIA LLM API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tzolov/nvidia-llm/blob/main/src/main/java/com/example/nvidia/ChatController.java&quot;&gt;Spring AI - NVIDIA - Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Previous Spring AI blog posts:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/09/spring-ai-embraces-openais-structured-outputs-enhancing-json-response&quot;&gt;Spring AI Embraces OpenAI&apos;s Structured Outputs: Enhancing JSON Response Reliability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/07/31/spring-ai-with-groq-a-blazingly-fast-ai-inference-engine&quot;&gt;Spring AI with Groq - a blazingly fast AI inference engine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/07/26/spring-ai-with-ollama-tool-support&quot;&gt;Spring AI with Ollama Tool Support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/05/09/spring-ai-structured-output&quot;&gt;Spring AI - Structured Output&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/04/19/spring-ai-multimodality-orbis-sensualium-pictus&quot;&gt;Spring AI - Multimodality - Orbis Sensualium Pictus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/03/06/function-calling-in-java-and-spring-ai-using-the-latest-mistral-ai-api&quot;&gt;Function Calling in Java and Spring AI using the latest Mistral AI API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/02/24/spring-cloud-function-for-azure-function&quot;&gt;Spring Cloud Function for Azure Function&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Integrating NVIDIA LLM API with Spring AI opens up new possibilities for developers looking to leverage high-performance AI models in their Spring applications.
+By repurposing the OpenAI client, Spring AI makes it straightforward to switch between different AI providers, allowing you to choose the best solution for your specific needs.&lt;/p&gt;
+&lt;p&gt;As you explore this integration, remember to stay updated with the latest documentation from both Spring AI and NVIDIA LLM API, as features and model availability may evolve over time.&lt;/p&gt;
+&lt;p&gt;We encourage you to experiment with different models and compare their performance and outputs to find the best fit for your use case.&lt;/p&gt;
+&lt;p&gt;Happy coding, and enjoy the speed and capabilities that NVIDIA LLM API brings to your AI-powered Spring applications!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[This Week in Spring - August 20th, 2024]]></title><link>https://spring.io/blog/2024/08/20/this-week-in-spring-august-20th-2024</link><guid isPermaLink="true">https://spring.io/blog/2024/08/20/this-week-in-spring-august-20th-2024</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Welcome to another installment in &lt;em&gt;This Week in Spring&lt;/em&gt;! And happy week-before-SpringOne! I&apos;m so excited I could spit! As you might imagine, AI, cloud native architecture, and so much more are top-of-mind. I love AI, and all its many applications. In that spirit, let&apos;s get ChatGPT to write a little poem for us!&lt;/p&gt;
+&lt;p&gt;&apos;Twas the week before SpringOne, and all through Las Vegas,
+Java devs were arriving, their excitement contagious.
+Spring Boot and Kotlin, all polished with care,
+In hopes that new features soon would be there.
+Workshops and sessions, each bright in their light,
+Promising insights to code through the night.
+From keynote to cocktail, the energy’s bright,
+SpringOne in Las Vegas—Java’s premier delight&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/19/spring-data-2024-0-3-and-2023-1-9-released&quot;&gt;Spring Data 2024-0-3 and 2023-1-9 released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In last week&apos;s installment of a &lt;em&gt;Bootiful Podcast&lt;/em&gt;, &lt;a href=&quot;https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community&quot;&gt;I talked to Gradle and Devlocity engineer Eric Haag&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;there&apos;s a new fix &lt;a href=&quot;https://spring.io/blog/2024/08/14/spring-framework-releases-fixes-for-cve-2024-38808-and-cve-2024-38809&quot;&gt;for CVES - CVE-2024-38809 and CVE-2024-33803 - in Spring Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/14/spring-framework-6-2-0-m7-available-now&quot;&gt;Spring Framework is available 6.2.0 M7 is available now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/14/spring-framework-6-1-12-6-0-23-and-5-3-39-available-now&quot;&gt;Spring Framework 6.1.12, 6.0.23, and 5.3.39 are available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I enjoyed Dashaun and Dan&apos;s &lt;a href=&quot;https://www.youtube.com/watch?v=Jnj8kDe5lBs&quot;&gt;look at their SpringOne 2024 ahead&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hah! Not Spring related, &lt;em&gt;per se&lt;/em&gt;, but very interesting: Spring RS, a &lt;a href=&quot;https://github.com/spring-rs/spring-rs&quot;&gt;microservices framework in Rust inspired by Spring Boot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;C&apos;ya in Vegas!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Data 2024.0.3 and 2023.1.9 released]]></title><link>https://spring.io/blog/2024/08/19/spring-data-2024-0-3-and-2023-1-9-released</link><guid isPermaLink="true">https://spring.io/blog/2024/08/19/spring-data-2024-0-3-and-2023-1-9-released</guid><dc:creator><![CDATA[Jens Schauder]]></dc:creator><pubDate>Mon, 19 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I’m pleased to announce the availability of &lt;code&gt;2024.0.3&lt;/code&gt; and &lt;code&gt;2023.1.9&lt;/code&gt; service releases. These releases ship with dependency upgrades, fixes for regressions and selected improvements.&lt;/p&gt;
+&lt;p&gt;The upcoming Spring Boot releases &lt;code&gt;3.3.3&lt;/code&gt;, respective &lt;code&gt;3.2.9&lt;/code&gt; will pick up the above releases by next week.&lt;/p&gt;
+&lt;h2 id=&quot;202403&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#202403&quot; aria-label=&quot;202403 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2024.0.3&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Data Commons &lt;code&gt;3.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/3.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/releases/tag/3.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data JPA &lt;code&gt;3.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/3.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-jpa/releases/tag/3.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB &lt;code&gt;4.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/4.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/reference/4.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-mongodb/releases/tag/4.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data for Apache Cassandra &lt;code&gt;4.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/4.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/reference/4.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-cassandra/releases/tag/4.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j &lt;code&gt;7.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/7.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/reference/7.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-neo4j/releases/tag/7.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data KeyValue &lt;code&gt;3.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/3.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-keyvalue/releases/tag/3.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data LDAP &lt;code&gt;3.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/3.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-ldap/releases/tag/3.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data REST &lt;code&gt;4.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/4.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/reference/4.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-rest/releases/tag/4.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Redis &lt;code&gt;3.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/3.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-redis/releases/tag/3.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Elasticsearch &lt;code&gt;5.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/5.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/reference/5.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-elasticsearch/releases/tag/5.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Couchbase &lt;code&gt;5.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/5.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/reference/5.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-couchbase/releases/tag/5.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Relational &lt;code&gt;3.3.3&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/relational/docs/3.3.3/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/relational/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-relational/releases/tag/3.3.3&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;202319&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#202319&quot; aria-label=&quot;202319 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2023.1.9&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Data Commons &lt;code&gt;3.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/3.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/reference/3.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/releases/tag/3.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data JPA &lt;code&gt;3.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/3.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/reference/3.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-jpa/releases/tag/3.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB &lt;code&gt;4.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/4.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/reference/4.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-mongodb/releases/tag/4.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data for Apache Cassandra &lt;code&gt;4.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/4.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/reference/4.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-cassandra/releases/tag/4.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j &lt;code&gt;7.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/7.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/reference/7.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-neo4j/releases/tag/7.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data KeyValue &lt;code&gt;3.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/3.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/reference/3.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-keyvalue/releases/tag/3.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data LDAP &lt;code&gt;3.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/3.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/reference/3.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-ldap/releases/tag/3.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data REST &lt;code&gt;4.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/4.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/reference/4.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-rest/releases/tag/4.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Redis &lt;code&gt;3.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/3.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/reference/3.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-redis/releases/tag/3.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Elasticsearch &lt;code&gt;5.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/5.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/reference/5.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-elasticsearch/releases/tag/5.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Couchbase &lt;code&gt;5.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/5.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/reference/5.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-couchbase/releases/tag/5.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Relational &lt;code&gt;3.2.9&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/relational/docs/3.2.9/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/relational/reference/3.2/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-relational/releases/tag/3.2.9&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: Gradle and Develocity engineer and Spring community legend Eric Haag]]></title><link>https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community</link><guid isPermaLink="true">https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Thu, 15 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! In this episode I talk to Gradle and Develocity engineer and Spring community legend Eric Haag&lt;/p&gt;
+&lt;iframe title=&quot;Gradle and Develocity engineer and Spring community legend Eric Haag&quot; allowtransparency=&quot;true&quot; height=&quot;150&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:150px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?i=fgcb6-16a21a5-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content:encoded></item></channel></rss>

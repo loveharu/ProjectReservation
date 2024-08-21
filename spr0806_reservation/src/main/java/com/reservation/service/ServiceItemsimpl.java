@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.reservation.dao.IMainDao;
 import com.reservation.dao.ServiceItemsDao;
+import com.reservation.dto.ImageDto;
 import com.reservation.dto.MainDto;
 import com.reservation.dto.ServiceItemsDto;
 
@@ -49,6 +50,12 @@ public class ServiceItemsimpl implements IServiceItemsService {
 		ServiceItemsDao itemDao = sqlSession.getMapper(ServiceItemsDao.class);
 		itemDao.deleteMyItem(dto);
 
+	}
+	@Override
+	public void insertItemImg(ImageDto dto) throws Exception{
+		ServiceItemsDao itemDao = sqlSession.getMapper(ServiceItemsDao.class);
+		itemDao.insertItemImg(dto);
+		
 	}
 
 }

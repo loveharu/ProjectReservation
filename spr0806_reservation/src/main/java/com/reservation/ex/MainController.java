@@ -24,6 +24,7 @@ import com.reservation.service.IMainService;
 
 //created by 김하겸
 //해당 컨트롤러는 메인페이지 뷰에서 오는 요청을 처리
+
 @Controller
 public class MainController {
 
