@@ -9,7 +9,7 @@
 <body>
 	<div class="container">
 		<h1>서비스 업체 등록</h1>
-		<form action="/ex/file/updateInfo" method="post"
+		<form action="/ex/file/updateItemInfo" method="post"
 			enctype="multipart/form-data">
 
 			<div class="form-group">

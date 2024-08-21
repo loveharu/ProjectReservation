@@ -14,7 +14,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		service_name,
 		service_description,
 		required_time,
-		service_price,
+		price,
 		status
 		)
 		VALUES (
@@ -24,13 +24,13 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		#{service_name},
 		#{service_description},
 		#{required_time},
-		#{service_price},
+		#{price},
 		'1'
 		)
 	</insert>
-	
-	<insert id ="insertImage">
-		
+
+	<insert id="insertImage">
+
 	</insert>
 	<select id="selectAllMyItems"
 		resultType="com.reservation.dto.ServiceItemsDto">
@@ -54,9 +54,17 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		#{business_regi_num}
 		And
 		item_id =#{item_id}
-		ORDER BY item_status DESC,
+		ORDER BY
+		item_status DESC,
 		item_id;
 	</select>
+	<insert id="insertItemImg"
+		parameterType="com.reservation.dto.ImageDto">
+		INSERT INTO images (fileName, fileType, filePath, fileSize, upload_time,
+		image_data)
+		VALUES (#{fileName}, #{fileType}, #{filePath}, #{fileSize}, #{upload_time},
+		#{image_data})
+	</insert>
 
 	<update id="updateMyItem" parameterType="int">
 		UPDATE service_items
@@ -65,8 +73,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		service_description =
 		#{service_description},
 		required_time = #{required_time},
-		service_price
-		= #{service_price}
+		price
+		=
+		#{price}
 		WHERE item_id = #{item_id};
 	</update>
 	<update id="deleteMyItem" parameterType="int">
